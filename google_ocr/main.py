@@ -4,8 +4,8 @@ import configparser
 
 def helpPrint():
     msg = "Welcome to Google OCR \n\n " \
-          "Use -f 'path' : To get Image to txt from path \n " \
-          "Use -d 'directory' : To get all Images to txt from directory \n "
+          "Use -f 'path' : To convert Image to txt from path \n " \
+          "Use -d 'directory' : To convert all Images to txt from directory \n "
     print(msg)
 
 if __name__ == "__main__":
