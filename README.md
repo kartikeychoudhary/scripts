@@ -7,6 +7,9 @@ Upload images using the following :
 
     Use -f 'path' : To upload image from path 
     Use -d 'directory' : To upload images from directory
+    Use -help for help
+    
+    example : python main.py -f test.png
     
 This will create a JSON file with the uploaded images details along with the direct links
 
@@ -17,5 +20,24 @@ Convert images using the following :
 
     Use -f 'path' : To convert image from path 
     Use -d 'directory' : To convert images from directory
+    Use -help for help
+    
+    example : python main.py -f test.png
     
 This will create a TXT file with the images name
+
+## Zippyshare Downloader 
+It is a tool download or get download links for zippyshare website
+Run setup.sh to configure your system linux user only else script works on both windows(need to setup selenium) and linux
+
+
+using the following commands:
+
+    Use -l 'link' : To download from single link
+    Use -f 'path' : To download files from the links provided in a file path given
+    Use -fs 'path' : To get Download links in the result.txt
+    Use -help for help
+    
+    example : python main.py -f < LINK URL >
+    
+This will help you download files from zippyshare or save links to download using diffrent software
