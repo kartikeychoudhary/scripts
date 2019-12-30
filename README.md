@@ -45,4 +45,4 @@ This will help you download files from zippyshare or save links to download usin
 ## Rearrange your data
 It is a tool to arrange all the data in a directory to the respective dataType Folders : Documents, Images, Videos, etc can be added easily just changes to be done in the dictionary.
 
-    Use Python rearrange.py [SOURCE PATH] [DESTINATION PATH] # PUT FULL PATH ( pnly for linux )
+    Use Python rearrange.py [SOURCE PATH] [DESTINATION PATH] # PUT FULL PATH ( only for linux )
