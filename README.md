@@ -48,3 +48,18 @@ It is a tool to arrange all the data in a directory to the respective dataType F
     Use Python rearrange.py [SOURCE PATH] [DESTINATION PATH] # PUT FULL PATH ( only for linux )
     
     example : python rearrange.py /home/user/Downloads /dev/sda1/Downloads 
+    
+## Dependency Add
+It is a tool to add dependencies to your project such as bootstarp, fontawesome, redux etc.
+
+Installation : 
+
+    Add the path/to/depend-add.py to your /etc/environment 
+    sudo vim /etc/environment
+    DEPEND = "path/to/depend-add/py"
+
+    Source the changes to test.
+    
+Usage : 
+    
+    python3 $DEPEND -h
