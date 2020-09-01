@@ -1,0 +1,21 @@
+nav {
+	width:100%;
+
+	ul {
+		list-style-type: none;
+		margin:0;
+		padding:0;
+	}
+
+	li {
+		display: inline-block;
+	}
+
+	a {
+		color:$base-link-color;
+	}
+
+	a:hover{
+		color:$base-link-hover;
+	}
+}   

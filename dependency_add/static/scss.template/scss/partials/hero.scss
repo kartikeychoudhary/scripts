@@ -1,0 +1,30 @@
+.small-border-radius {
+	-webkit-border-radius: 6px;
+	   -moz-border-radius: 6px;
+	    -ms-border-radius: 6px;
+	        border-radius: 6px;
+}
+
+.home-hero {
+	margin-top: 20px;
+	   padding: 20px;
+	background: #333; 
+	@include border-radius(12px);
+
+	h1{
+	font-size: 36px;
+	line-height: 36px;
+	}
+}
+
+.home-hero-content {
+	margin-top: 20px;
+	   padding: 20px;
+	background: #333; 
+	@extend .small-border-radius;
+
+	h4{
+	font-size: 18px;
+	line-height: 16px;
+	}
+}
